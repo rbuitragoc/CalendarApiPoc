@@ -30,6 +30,5 @@ public class DisplayMessageActivity extends Activity {
 		Intent intent = new Intent(this, CalendarApiPocActivity.class);
 		intent.putExtra(CalendarApiPocActivity.EXTRA_MESSAGE, messageValue);
 		startActivityIfNeeded(intent, 0);
-		
 	}
 }
