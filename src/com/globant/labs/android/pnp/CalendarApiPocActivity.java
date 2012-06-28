@@ -25,4 +25,16 @@ public class CalendarApiPocActivity extends Activity {
     	intent.putExtra(EXTRA_MESSAGE, message);
     	startActivity(intent);
     }
+
+	@Override
+	protected void onStart() {
+		super.onStart();
+		EditText editText = (EditText) findViewById(R.id.edit_message);
+    	if (getIntent() != null && getIntent().getExtras() != null) {
+			String message = "" + getIntent().getExtras().get(EXTRA_MESSAGE);
+			editText.setText(message);
+		}
+	}
+    
+    
 }

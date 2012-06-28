@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    <TextView 
+        android:id="@+id/message_view"
+        android:textSize="40dp"
+        android:typeface="serif"
+        android:textStyle="italic"
+        android:gravity="left" 
+        android:text="@android:attr/typeface"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    
+    <Button 
+        android:id="@+id/button_return"
+        android:text="@string/button_return"
+        android:width="105dp"
+        android:gravity="center_horizontal"
+        android:lines="2"
+        android:onClick="returnToMainActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

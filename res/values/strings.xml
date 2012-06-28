@@ -5,5 +5,6 @@
     <string name="app_name">CalendarApiPoc</string>
     <string name="edit_message">Enter your message</string>
     <string name="button_send">Send text to next activity</string>
+    <string name="button_return">Return to first activity</string>
 
 </resources>
