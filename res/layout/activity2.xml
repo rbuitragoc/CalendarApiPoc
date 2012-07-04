@@ -24,4 +24,11 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal" />
 
+    <Button
+        android:id="@+id/button_next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_next"
+        android:onClick="nextActivity" />
+
 </LinearLayout>

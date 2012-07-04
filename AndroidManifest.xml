@@ -20,6 +20,7 @@
             </intent-filter>
         </activity>
         <activity android:name="com.globant.labs.android.pnp.DisplayMessageActivity"></activity>
+        <activity android:name="com.globant.labs.android.pnp.ThirdActivity"></activity>
     </application>
 
 </manifest>

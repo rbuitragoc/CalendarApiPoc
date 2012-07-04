@@ -14,17 +14,21 @@ public final class R {
         public static final int ic_launcher=0x7f020000;
     }
     public static final class id {
+        public static final int button_next=0x7f050002;
         public static final int button_return=0x7f050001;
-        public static final int button_send=0x7f050003;
-        public static final int edit_message=0x7f050002;
+        public static final int button_send=0x7f050004;
+        public static final int edit_message=0x7f050003;
+        public static final int fragment_container=0x7f050005;
         public static final int message_view=0x7f050000;
     }
     public static final class layout {
         public static final int activity2=0x7f030000;
         public static final int main=0x7f030001;
+        public static final int third_activity=0x7f030002;
     }
     public static final class string {
         public static final int app_name=0x7f040001;
+        public static final int button_next=0x7f040005;
         public static final int button_return=0x7f040004;
         public static final int button_send=0x7f040003;
         public static final int edit_message=0x7f040002;
